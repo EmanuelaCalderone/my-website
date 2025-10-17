@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+  font-family: "Outfit", sans-serif;
+  background-color: #000;
+  color: #d8d6cb;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
+}
+
+/* testi e titoli */
+h1,
+h2,
+h3 {
+  font-weight: 500;
+  margin-bottom: 1em;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+  color: #d8d6cb;
+}
+
+p {
+  margin-bottom: 1em;
+  max-width: 800px;
+  font-size: 1.15rem;
+  transition: color 0.3s ease;
+  color: #d8d6cb;
+
+}
+
+/* link */
+a {
+  color: #d8d6cb;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.3s ease, opacity 0.3s ease, border-bottom 0.3s ease;
+}
+
+a:hover {
+  color: #4bb047;
+  opacity: 1;
+}
+
+/* immagini */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.5em;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* sezioni*/
+section {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+  transition: opacity 1.2s ease, transform 1.2s ease, filter 1.2s ease;
+  will-change: opacity, transform;
+  z-index: 1;
+  visibility: visible;
+}
+
+section:target {
+  animation: sectionFadeIn 0.8s ease both;
+}
+
+@keyframes sectionFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+    filter: blur(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}

@@ -1,0 +1,154 @@
+.contact {
+    width: 80%;
+    max-width: 700px;
+    margin: 4rem auto;
+    padding: 2rem;
+    text-align: center;
+    border-top: 1px solid #d8d6cb;
+}
+
+/* titolo e sottotitolo */
+.contact h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+/* form */
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.form_group {
+    width: 100%;
+}
+
+/* input e textarea */
+.contact_form input,
+.contact_form textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 1.1rem 1.2rem;
+    font-size: 1.05rem;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background: #111;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.contact_form input::placeholder,
+.contact_form textarea::placeholder {
+    color: #888;
+}
+
+.contact_form input:focus,
+.contact_form textarea:focus {
+    border-color: #4bb047;
+}
+
+/* submit */
+.btn_submit {
+    width: 100%;
+    max-width: 600px;
+    background: #4bb047;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 1.1rem 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    color: #d8d6cb;
+}
+
+.btn_submit:hover {
+    transform: scale(1.03);
+    color: #000;
+}
+
+/* messaggi di feedback */
+.form_message {
+    margin-top: 1rem;
+    font-size: 1.05rem;
+    font-weight: 500;
+    opacity: 0;
+    transform: translateY(5px);
+    animation: fadeIn 0.4s ease forwards;
+}
+
+/* font modulo */
+.contact_form,
+.contact_form input,
+.contact_form textarea,
+.contact_form button,
+.contact_form ::placeholder {
+    font-family: "Outfit", sans-serif;
+    color: #d8d6cb;
+}
+
+
+.form_message.success {
+    color: #4bb047;
+}
+
+.form_message.error {
+    color: #ff5b5b;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 480px) {
+    .contact {
+        width: 95%;
+        padding: 2.5rem 1.5rem;
+    }
+
+    .contact h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact p {
+        font-size: 1rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .contact_form {
+        gap: 1.8rem;
+    }
+
+    .contact_form input,
+    .contact_form textarea {
+        padding: 1.3rem 1.4rem;
+        font-size: 1rem;
+        border-radius: 12px;
+    }
+
+    .btn_submit {
+        padding: 1.3rem 1.4rem;
+        font-size: 1.25rem;
+        border-radius: 12px;
+    }
+
+    .form_message {
+        font-size: 1.2rem;
+    }
+}
