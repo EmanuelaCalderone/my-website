@@ -18,7 +18,7 @@ const en = {
     about: {
         title: "ABOUT ME",
         quote:
-            "“It is not the strongest or the most intelligent who survives, but the one most adaptable to change.” — Charles Darwin",
+            "“It is not the strongest or the most intelligent who survives, but the one most adaptable to change.” - Charles Darwin",
         paragraph1:
             "💻 I’m a Front-end Developer with a strong attention to detail and a passion for UI/UX design. I completed an intensive Full-Stack Web Development course, focusing mainly on the Front-end - where I can best express my creativity, love for clean interfaces, and intuitive user experiences.",
         paragraph2:
@@ -31,12 +31,12 @@ const en = {
             'Want to know more about my background? <a href="/Emanuela_Calderone_Curriculum_Vitae_EN.pdf" download class="cv-link">Download my CV</a>',
         skillsTitle: "💡 WHAT SETS ME APART",
         skills: [
-            "Constant desire to learn and improve. Day and night... well, maybe not at night.",
-            "Serial problem solver: I don’t eat until I fix a bug. And that’s why I only weigh half a pound.",
-            'Obsessive attention to detail. Seriously, ObSeSsIvE. Ask my psychiatrist, <a href="https://images.steamusercontent.com/ugc/858348503487749724/A890112F1E503E58F6B3205B87EE09566C5FA78E/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false">you can contact him here</a>.',
-            "Multidisciplinary background: technical skills + linguistic creativity. Identity crisis? Maybe. But with style.",
-            "Empathy toward users and teammates — probably because we all share the same mental issues.",
-            "Initiative and proactivity. Just finished learning React? Then I’ll build a React Native app. Did I study it before? No. Did I succeed? Yes.",
+            "<strong>Constant desire to learn and improve.</strong><br>Day and night... well, maybe not at night.",
+            "<strong>Serial problem solver:</strong><br>I don’t eat until I fix a bug. And that’s why I only weigh half a pound.",
+            '<strong>Obsessive attention to detail.</strong><br>Seriously, ObSeSsIvE. Ask my psychiatrist, <a href="https://images.steamusercontent.com/ugc/858348503487749724/A890112F1E503E58F6B3205B87EE09566C5FA78E/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false">you can contact him here</a>.',
+            "<strong>Multidisciplinary background:</strong><br>technical skills + linguistic creativity. Identity crisis? Maybe. But with style.",
+            "<strong>Empathy toward users and teammates</strong><br>probably because we all share the same mental issues.",
+            "<strong>Initiative and proactivity.</strong><br>Just finished learning React? Then I’ll build a React Native app. Did I study it before? No. Did I try? Yes.",
         ],
         stackTitle: "🛠 TECH STACK",
         stack: {
