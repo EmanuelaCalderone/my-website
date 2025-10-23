@@ -15,6 +15,7 @@ function Hero() {
                 loop
                 muted
                 playsInline
+                webkitPlaysInline
                 preload="auto"
                 type="video/mp4"
             />
