@@ -9,12 +9,16 @@ function Hero() {
             {/* video hero */}
             <video
                 className="hero_video"
-                src="/videoHero.mp4"
                 autoPlay
                 loop
                 muted
                 playsInline
-            />
+                poster="/poster.jpg"
+            >
+                <source src="/videoHero.mp4" type="video/mp4" />
+                <source src="/videoHero.webm" type="video/webm" />
+                Your browser does not support the video tag.
+            </video>
 
             {/* contenuto sopra video */}
             <div className="hero_content">
