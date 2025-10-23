@@ -6,7 +6,7 @@ function Hero() {
 
     return (
         <section id="hero" className="hero">
-            {/* video hero */}
+            {/* Video di sfondo */}
             <video
                 className="hero_video"
                 autoPlay
@@ -20,7 +20,7 @@ function Hero() {
                 Your browser does not support the video tag.
             </video>
 
-            {/* contenuto sopra video */}
+            {/* Contenuto sopra il video */}
             <div className="hero_content">
                 <h1>{t.hero.title}</h1>
                 <h2>{t.hero.subtitle}</h2>
