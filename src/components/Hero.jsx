@@ -1,3 +1,4 @@
+import videoHero from "../assets/videoHero.mp4";
 import "../styles/hero.css";
 import { useLanguage } from "../context/LanguageContext";
 
@@ -6,21 +7,17 @@ function Hero() {
 
     return (
         <section id="hero" className="hero">
-            {/* Video di sfondo */}
+            {/* video hero */}
             <video
                 className="hero_video"
+                src={videoHero}
                 autoPlay
                 loop
                 muted
                 playsInline
-                poster="/poster.jpg"
-            >
-                <source src="/videoHero.mp4" type="video/mp4" />
-                <source src="/videoHero.webm" type="video/webm" />
-                Your browser does not support the video tag.
-            </video>
+            />
 
-            {/* Contenuto sopra il video */}
+            {/* contenuto sopra video */}
             <div className="hero_content">
                 <h1>{t.hero.title}</h1>
                 <h2>{t.hero.subtitle}</h2>
