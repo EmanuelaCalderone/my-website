@@ -1,4 +1,3 @@
-import videoHero from "../assets/videoHero.mp4";
 import "../styles/hero.css";
 import { useLanguage } from "../context/LanguageContext";
 
@@ -10,7 +9,7 @@ function Hero() {
             {/* video hero */}
             <video
                 className="hero_video"
-                src={videoHero}
+                src="/videoHero.mp4"
                 autoPlay
                 loop
                 muted
