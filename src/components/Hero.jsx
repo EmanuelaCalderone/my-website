@@ -15,6 +15,8 @@ function Hero() {
                 loop
                 muted
                 playsInline
+                preload="auto"
+                type="video/mp4"
             />
 
             {/* contenuto sopra video */}
