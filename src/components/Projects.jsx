@@ -150,12 +150,18 @@ function ProjectCard({ project }) {
                     )}
 
                     {project.playStoreBadge && (
-                        <div className="store_badge disabled">
-                            <img
-                                src={project.playStoreBadge}
-                                alt="Disponibile su Google Play"
-                                className="badge_img"
-                            />
+                        <div className="store_badge">
+                            <a
+                                href="https://play.google.com/store/apps/details?id=com.anonymous.FunWeather"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img
+                                    src={project.playStoreBadge}
+                                    alt="Disponibile su Google Play"
+                                    className="badge_img"
+                                />
+                            </a>
                         </div>
                     )}
 
