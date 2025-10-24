@@ -2,6 +2,9 @@
 import appStoreBadge from "../assets/badges/app-store-badge.svg";
 import googlePlayBadge from "../assets/badges/google-play-badge.svg";
 import chromeStoreBadge from "../assets/badges/chromeStoreBadge.png";
+import scratchProject from "../assets/projects-images/scratchProject.png";
+import scratchProject2 from "../assets/projects-images/scratchProject2.png";
+
 
 import CellulariVintage from "../assets/projects-images/CellulariVintage.mov";
 import FnIta1 from "../assets/projects-images/FnIta1.png";
@@ -73,5 +76,16 @@ export const projects = [
         video: surfVideo,
         github_frontend: "https://github.com/EmanuelaCalderone/ocean_flow_react",
         github_backend: "https://github.com/EmanuelaCalderone/ocean_flow_API",
+    },
+    {
+        id: 6,
+        title: "A story of Magic and Nonsense",
+        description: {
+            it: "Il mio primissimo progetto per il corso 'CS50: Introduction to Computer Science', un’introduzione alle basi dell’informatica e all’arte della programmazione offerto da Harvard. Questo progetto, sviluppato con Scratch, rappresenta il mio primo approccio al pensiero computazionale: un piccolo esperimento di logica e interattività che mi ha permesso di comprendere concetti fondamentali come eventi, cicli e condizioni.",
+            en: "My very first project for 'CS50: Introduction to Computer Science', an introduction to the intellectual enterprises of computer science and the art of programming offered by Harvard. Developed with Scratch, this project marks my first step into computational thinking, a small experiment in logic and interactivity that helped me understand core concepts like events, loops, and conditions.",
+        },
+        images: [scratchProject, scratchProject2],
+        liveSite: "https://scratch.mit.edu/projects/1067399290/",
+        isGame: true,
     },
 ];

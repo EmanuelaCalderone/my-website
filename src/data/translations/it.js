@@ -52,6 +52,7 @@ const it = {
         showNewest: "Mostra dal più recente",
         showOldest: "Mostra dal meno recente",
         visitSite: "🌐 Visita il sito",
+        play: "🎮 Gioca",
         github: "🔗 GitHub",
         githubFrontend: "🔗 GitHub Front-end",
         githubBackend: "🔗 GitHub Back-end",

@@ -144,9 +144,14 @@ function ProjectCard({ project }) {
                         }`}
                 >
                     {project.liveSite && (
-                        <Link to={project.liveSite}>
-                            {t.projects.visitSite}
-                        </Link>
+                        <a
+                            href={project.liveSite}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="project_link"
+                        >
+                            {project.isGame ? t.projects.play : t.projects.visitSite}
+                        </a>
                     )}
 
                     {project.playStoreBadge && (
