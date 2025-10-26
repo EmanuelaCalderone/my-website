@@ -144,7 +144,7 @@ function ProjectCard({ project }) {
                         }`}
                 >
                     {project.liveSite && (
-                        project.liveSite.startsWith("http") ? (
+                        project.liveSite.startsWith("https") ? (
                             <a
                                 href={project.liveSite}
                                 target="_blank"
