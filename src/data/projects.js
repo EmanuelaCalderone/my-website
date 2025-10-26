@@ -23,7 +23,7 @@ export const projects = [
             en: "Exactly the website you’re currently looking at (I know, shocking). Built with React and Vite, I handled the structure, UX, and design to maintain a clean, responsive layout. The site is still young and was originally designed for desktop, but it grows day by day - with constant updates to visuals, responsiveness, and logic.",
         },
         images: [website],
-        liveSite: "/https://emanuelacalderone.com/joke",
+        liveSite: "https://emanuelacalderone.com/joke",
         github: "https://github.com/EmanuelaCalderone/my-website",
     },
     {
